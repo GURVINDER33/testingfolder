@@ -8,7 +8,7 @@
     <section class="section">
       <div class="container">
         <div class="columns">
-          <!-- Sidebar for Categories -->
+          
           <div class="column is-3">
             <aside class="menu">
               <p class="menu-label">Course Categories</p>
@@ -38,7 +38,7 @@
               <div class="column is-4" v-for="course in courses" :key="course.id">
                 <itemCourse :course="course" />    
               </div>
-              <!-- Pagination (if needed) -->
+              <!-- pagination (if needed) -->
               <div class="column is-12">
                 <nav class="pagination is-centered">
                   <a class="pagination-previous">Previous</a>
