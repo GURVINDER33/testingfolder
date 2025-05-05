@@ -103,7 +103,7 @@ def course_list(request):
 
 
 
-openai.api_key = "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"
+
 
 
 # starting Pinecone client
